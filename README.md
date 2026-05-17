@@ -29,11 +29,16 @@ Aplikasi auth sederhana yang mengimplementasikan sistem autentikasi dan otorisas
 
 ## Screenshot Preview
 
-<!-- Tambahkan screenshot di sini -->
+<p>
+  <img src="assets/login.jpeg" width="250" style="margin-right:10px;"/>
+  <img src="assets/register.jpeg" width="250" style="margin-right:10px;"/>
+  <img src="assets/forget.jpeg" width="250" style="margin-right:10px;"/>
+  <img src="assets/home.jpeg" width="250" style="margin-right:10px;"/>
+</p>
 
 ## Video Demo
 
-Link demo aplikasi YouTube: __[Klik untuk menonton video demo Youtube]()__
+Link demo aplikasi YouTube: __[Klik untuk menonton video demo Youtube](https://youtu.be/7uJVHQn2PUc)__
 
 ## Cara Menjalankan
 

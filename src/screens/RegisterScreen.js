@@ -10,7 +10,7 @@ import {
   Platform,
   ScrollView,
 } from 'react-native';
-import { createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
+import { createUserWithEmailAndPassword, sendEmailVerification, signOut } from 'firebase/auth';
 import { auth } from '../config/firebase';
 
 export default function RegisterScreen({ navigation }) {
@@ -21,6 +21,7 @@ export default function RegisterScreen({ navigation }) {
     try {
       const cred = await createUserWithEmailAndPassword(auth, email, password);
       await sendEmailVerification(cred.user);
+      await signOut(auth);
       Alert.alert('Sukses', 'Cek email Anda untuk verifikasi.');
     } catch (e) {
       Alert.alert('Registrasi Gagal', e.message);
